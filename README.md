@@ -1,10 +1,20 @@
 ###    [![Build Status](https://travis-ci.org/AtlasOfLivingAustralia/ala-charts-plugin.svg?branch=master)](https://travis-ci.org/AtlasOfLivingAustralia/ala-charts-plugin)
 
+
+## Versions
+* 2.1-ANGULAR-4 is for Angular application and build with grails 4
+* 2.1-angular is for Angular application and build with grails 3
+  
+* 1.3.x is built with grails 2.5.x and supports bootstrap 3
+* 1.4.x is built with grails 3.x and supports bootstrap 3
+
+
 The grails2 branch contains the 1.3.x series of the plugin compatible with Grails 2.x
 
 The master branch hosts version 2.x and forward of the plugin compatible with grails 3.x
 
-The Angular-charts branch only support Angular application
+The Angular-charts and angular_grails4 branch only supports Angular application
+
 
 ## Why ?
 
@@ -14,10 +24,8 @@ across the ALA. This plugin is currently only supporting charts
 on top of biocache services but could be extended to include other
 services (e.g. logger services, ecodata services).
 
-## Versions
 
-* 1.3.x is built with grails 2.5.x and supports bootstrap 3
-* 1.4.x is built with grails 3.x and supports bootstrap 3
+
 
 ## Usage instructions
 
