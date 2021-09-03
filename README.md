@@ -3,6 +3,7 @@
 
 ## Versions
 * 2.1-ANGULAR-4 is for Angular application and build with grails 4
+  - fix duplicted calbacks
 * 2.1-angular is for Angular application and build with grails 3
   
 * 1.3.x is built with grails 2.5.x and supports bootstrap 3

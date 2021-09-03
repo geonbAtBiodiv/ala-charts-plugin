@@ -522,9 +522,6 @@ ALA.BiocacheCharts = function (chartsDivId, chartOptions) {
         $.ajax({
             url: queryUrl,
             type: 'GET',
-            error: function(xhr, status, error) {
-                alert("error");
-            },
             success: function(data) {
                 dataCallback(data.data);
             },
@@ -1023,9 +1020,6 @@ ALA.BiocacheCharts = function (chartsDivId, chartOptions) {
         $.ajax({
             url: queryUrl,
             type: 'GET',
-            error: function(xhr, status, error) {
-                alert("error");
-            },
             success: function(data) {
                 callback(data.facetResults[0].fieldResult);
             },
