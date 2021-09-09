@@ -14,9 +14,9 @@ group "au.org.ala.plugins.grails"
 apply plugin:"eclipse"
 apply plugin:"idea"
 apply plugin:"org.grails.grails-plugin"
-apply plugin:"org.grails.grails-plugin-publish"
 apply plugin:"asset-pipeline"
 apply plugin:"org.grails.grails-gsp"
+apply plugin:"maven-publish"
 
 repositories {
     maven { url "https://repo.grails.org/grails/core" }
@@ -66,20 +66,6 @@ bootRun {
 }
 // enable if you wish to package this plugin as a standalone application
 bootJar.enabled = false
-grailsPublish {
-    // TODO: Provide values here
-    githubSlug = 'AtlasOfLivingAustralia/ala-charts-plugin'
-    websiteUrl = 'https://github.com/AtlasOfLivingAustralia/ala-charts-plugin'
-    license {
-        name = 'MPL-1.1'
-    }
-    issueTrackerUrl = 'https://github.com/AtlasOfLivingAustralia/ala-charts-plugin/issues'
-    vcsUrl = 'https://github.com/AtlasOfLivingAustralia/ala-charts-plugin'
-    title = "ALA Images Client Plugin"
-    desc = "This plugin provides a reusable image viewer component based on Leaflet"
-    developers = [:]
-}
-
 
 assets {
     packagePlugin = true
